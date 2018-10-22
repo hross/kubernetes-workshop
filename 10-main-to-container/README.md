@@ -18,6 +18,17 @@ Push a previously generated container image for the program
 make container push
 ```
 
+
+Building and running these containers in Docker examples:
+
+```
+cd [language]
+docker build -t krisnova/kubernetes-workshop-app .
+docker run -it krisnova/kubernetes-workshop-app
+docker push krisnova/kubernetes-workshop-app
+docker run krisnova/kubernetes-workshop-app:latest
+```
+
 Perform both steps in one fell swoop
 
 # Contributing an example
