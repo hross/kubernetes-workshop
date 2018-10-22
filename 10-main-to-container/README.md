@@ -18,6 +18,15 @@ Push a previously generated container image for the program
 make container push
 ```
 
+Perform both steps in one fell swoop
+
+# Contributing an example
+
+It's probably easiest to copy an existing example.
+
+Make sure it works, it runs in a container, and follows the Makefile parlance.
+
+# Running docker commands
 
 Building and running these containers in Docker examples:
 
@@ -28,12 +37,3 @@ docker run -it krisnova/kubernetes-workshop-app
 docker push krisnova/kubernetes-workshop-app
 docker run krisnova/kubernetes-workshop-app:latest
 ```
-
-Perform both steps in one fell swoop
-
-# Contributing an example
-
-It's probably easiest to copy an existing example.
-
-Make sure it works, it runs in a container, and follows the Makefile parlance.
-
